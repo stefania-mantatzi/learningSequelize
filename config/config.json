@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "cb12ptjs",
+    "password": "cb12ptjs",
+    "database": "cb12ptjs",
+    "host": "ra1.anystream.eu",
+    "port": 5420,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+</head>
+
+<body>
+    <h3><%= message %></h3>
+    <form action="/customers/create" method="POST">
+        First Name: <input type="text" name="firstName" title="firstName" /><br />
+        Last Name: <input type="text" name="lastName" title="lastName" /><br />
+        Email: <input type="email" name="email" title="email" /><br />
+        <button type="submit">Save</button>
+    </form>
+    <script>console.log("Hello")</script>
+</body>
+
+</html>
